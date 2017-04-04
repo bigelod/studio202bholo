@@ -18,7 +18,24 @@ var carryRB : Rigidbody; //Rigidbody of the object we are carrying
 var wasHeld = false; //Was holding an object?
 
 function Start () {
+<<<<<<< HEAD
 	
+=======
+    if (cameraObj == null) {
+        //Try and find the camera
+        var g : GameObject;
+        g = GameObject.FindWithTag("MainCamera");
+
+        if (g != null) {
+            cameraObj = g.transform;
+        }
+    }
+
+    if (handObj == null) {
+        //Assume we are the hand
+        handObj = gameObject.transform;
+    }
+>>>>>>> f47b900dffea2d0619984e58d6773f8cfbb92900
 }
 
 function Update () {
@@ -36,7 +53,10 @@ function Update () {
                 if (hit.collider != null) {
                     var g : GameObject;
                     g = hit.collider.gameObject;
+<<<<<<< HEAD
                     Debug.Log(g.tag);
+=======
+>>>>>>> f47b900dffea2d0619984e58d6773f8cfbb92900
                     
                     carryObjID = g.GetInstanceID();
                     carryObj = g;

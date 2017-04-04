@@ -8,8 +8,13 @@ var checkTag = "Player"; //Tag to look for
 var forcePosition = true; //Force player position on the other side?
 var targetPosition : Vector3; //Target position to "arrive at" on the other side
 
+<<<<<<< HEAD
 var dataObj : GameObject; //The object we need to get the script from
 var dataScript : PlayerDataHolder; //The actual script holding our between-level data
+=======
+private var dataObj : GameObject; //The object we need to get the script from
+private var dataScript : PlayerDataHolder; //The actual script holding our between-level data
+>>>>>>> f47b900dffea2d0619984e58d6773f8cfbb92900
 
 var objEulerAngle : Vector3; //The Euler Angle of the object
 var sendAngle = true; //Send our angle?

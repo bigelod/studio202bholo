@@ -10,6 +10,10 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Cube
+<<<<<<< HEAD
+=======
+    6400000: //RootNode
+>>>>>>> f47b900dffea2d0619984e58d6773f8cfbb92900
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -38,7 +42,11 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
+<<<<<<< HEAD
     addColliders: 0
+=======
+    addColliders: 1
+>>>>>>> f47b900dffea2d0619984e58d6773f8cfbb92900
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
